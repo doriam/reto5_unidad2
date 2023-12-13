@@ -1,0 +1,7 @@
+{
+  "name": "reto5_unidad3",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
