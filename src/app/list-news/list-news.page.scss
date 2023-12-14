@@ -1,0 +1,15 @@
+ion-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+ion-card-title,
+ion-button {
+  text-align: center;
+}

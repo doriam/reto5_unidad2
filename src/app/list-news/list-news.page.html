@@ -1,0 +1,28 @@
+<!-- tab1.page.html -->
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Noticias</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngFor="let noticia of noticias">
+    <ion-card-header>
+      <ion-card-title>{{ noticia.titulo }}</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <img src="../../assets/img/image.png" alt="Imagen Noticia">
+      <ion-card-subtitle>{{ noticia.fecha }}</ion-card-subtitle>
+      <p>{{ noticia.descripcion }}</p>
+      <div class="row">
+        <ion-button (click)="eliminarNoticia(noticia)">Eliminar</ion-button>
+      </div>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
+<ion-footer>
+  <ion-button expand="full" size="large" (click)="goToListNews()">Noticias</ion-button>
+  <ion-button expand="full" size="large" (click)="goToAddNews()">Agregar</ion-button>
+</ion-footer>

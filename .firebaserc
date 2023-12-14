@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "reto3-unidad5": {
+      "hosting": {
+        "app": [
+          "reto3-unidad5"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "reto3-unidad5"
+  }
+}
